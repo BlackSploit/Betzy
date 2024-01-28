@@ -11,7 +11,7 @@
 
 /* Button 1 */
 .btn-1gg {
-    color: #2E2E2E;
+    color: #d1d0d0;
     font-weight: 500;
     border-radius: 30px;
     padding: 18px 47px;
@@ -30,7 +30,7 @@
 
 /* Button 1 */
 .btn-1bb {
-  color: #2E2E2E;
+  color: #fffefe;
   font-weight: 500;
   border-radius: 30px;
   padding: 18px 47px;
@@ -335,3 +335,138 @@ header.fixed .navbar {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
+
+.close-icon img{
+  position: absolute;
+  top: 3vh;
+  right: 2vh;
+  width: 7vw;
+  height: 5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* premium page*/
+/* #bmbu123{
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+} */
+
+.x1Y8S {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0px 0px rgba(0,0,0,0.2);
+  width: 50vw;
+}
+
+.kU8oZ {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.iO7tQ, .jI6mK {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.iO7tQ {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.jI6mK {
+  color: #7f8c8d;
+}
+
+.eY3v2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.bK5pR, .wS3pU {
+  font-size: 1.2em;
+  color: #2c3e50;
+  margin: 0px 0;
+  white-space: nowrap;
+}
+
+.rS6mB {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.pW8eN {
+
+  border: none;
+  padding: 8px 15px;
+  margin: 0 3px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 0.9em;
+}
+
+.pW8eN:first-child {
+  flex-grow: 2;
+}
+
+.pW8eN:last-child {
+  flex-grow: 1;
+}
+
+.pW8eN:hover {
+  background-color: hwb(204 74% 22% / 0.141);
+  transform: translateY(-2px);
+}
+
+.cD5zY {
+  display: flex;
+  justify-content: flex-end;
+  color: #f39c12;
+  width: 100%;
+}
+
+.cD5zY i {
+  font-size: 1.3em;
+  margin: 0 8px;
+}
+
+
+.neon-text {
+  font-size: 10px;
+  margin-bottom: 15vh;
+  display: flex;
+  color: #7d7fea; /* Base color for the neon effect */
+  font-family: Arial, sans-serif; /* You can choose a different font if you like */
+  text-align: center;
+
+} 
+
+

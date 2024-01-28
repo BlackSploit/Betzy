@@ -38,11 +38,12 @@
 
 /* Button 1 */
 .btn-1gg {
-    color: #2E2E2E;
+    color: #000000;
     font-weight: 500;
     border-radius: 30px;
     padding: 9px 35px;
     background: linear-gradient(90deg, #FFE259 15.1%, #FFA751 85.42%);
+    width: 35vw;
     
 }
 
@@ -57,12 +58,13 @@
 
 /* Button 1 */
 .btn-1bb {
-  color: #000000;
+  color: #f5e9e9;
   font-weight: 500;
   border-radius: 30px;
   padding: 9px 35px;
   /* background: linear-gradient(90deg, #040709 15.1%, #ffffff 85.42%); */
   background: rgb(52, 101, 165);
+  width: 35vw;
   
 }
 
@@ -71,9 +73,9 @@
 
 
   .navbar-toggler-icon {
-    position: fixed;
-    top: 10vh; /* Adjust as needed */
-    right: 10px;
+    position: absolute;
+    top: 6.5vh; /* Adjust as needed */
+    right: 30px;
     display: flex;
     align-items: center;
     color: var(--body-text-purple);
@@ -137,7 +139,7 @@
     background-color: #041520;
     border-radius: 6% 0% 0% 9%;
     position: absolute;
-    width: 85%;
+    width: 63%;
     top: -15px;
     right: -15px;
     padding-top: 50px;
@@ -202,6 +204,14 @@
   body {
     font-size: 14px;
   }
+
+
+  body > div > header > div > nav > button > span.close-icon > img{
+    width: 5vw;
+    height: 4vh;
+  }
+
+
   .row_am {
     padding: 30px 0;
   }
@@ -213,7 +223,7 @@
     font-size: 24px;
   }
   .navbar {
-    padding-top: 15px;
+    padding-top: -0px;
   }
   .navbar-expand-lg .navbar-nav .has_dropdown .sub_menu ul li a {
     text-align: left;
@@ -504,7 +514,7 @@
     height: 400px;
   }
   .page-gradient1-blog {
-    background: radial-gradient(ellipse 50% 51%, #00ff4d47, #df313100);
+    background: radial-gradient(ellipse 50% 51%, #0974a547, #df313100);
     height: 10%;
     top: 3%;
   }
@@ -627,6 +637,26 @@
   .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       display: none;
   }
+
+
+
+  body > div > header > div > nav > button > span.close-icon > img{
+    width: 8vw;
+  }
+
+  #navbarSupportedContent > ul > li:nth-child(4) > a > button{
+    font-size: 2.5vw;
+  }
+  #navbarSupportedContent > ul > li:nth-child(4) > a > button:hover{
+    background: black;
+    box-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 3px #e60073, 0 0 4px #e60073, 0 0 5px #e60073;
+  }
+
+  #navbarSupportedContent > ul > li:nth-child(5) > a > button{
+    font-size: 2.5vw;
+    padding: 10px 10px;
+  }
+
 }
 
 
