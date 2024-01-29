@@ -27,6 +27,10 @@
 @media screen and (max-width: 992px) {
 
 
+  body > div > header > div > nav > button > span.navbar-toggler-icon{
+    margin-top: -1.5vh !important;
+  }
+
 
   .btngg {
     display: inline-block;
@@ -136,7 +140,7 @@
 
   .navbar-expand-lg .navbar-collapse {
     padding: 20px;
-    background-color: #041520;
+    background: linear-gradient(355.4deg,#080b0f 4.58%,#181e28 99.69%);
     border-radius: 6% 0% 0% 9%;
     position: absolute;
     width: 63%;
@@ -147,9 +151,12 @@
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     color: #fff;
-    padding: 15px 0;
+    padding: 14px 0;
     
     font-size: 13px;
+  }
+  #navbarSupportedContent > ul > li:nth-child(3) > a{
+    padding-top: 24px;
   }
   .navbar-expand-lg .navbar-nav .nav-link.dark_btn {
     margin-left: 0;
@@ -203,6 +210,10 @@
 @media screen and (max-width: 767px) {
   body {
     font-size: 14px;
+  }
+
+  #navbarSupportedContent > ul > li:nth-child(6) > a{
+    margin-bottom: 0.7vh;
   }
 
 
@@ -317,7 +328,7 @@
     padding-bottom: 50px;
   }
   .course .course-area {
-    padding: 70px 40px 55px;
+    padding: 25px 40px 55px;
   }
   .course {
     padding-top: 175px;
@@ -666,4 +677,33 @@ z-index: 99999;
 }
 .navbar-toggler{
 z-index: 1020;
+}
+
+
+#ageplus{
+    margin-top: -1vh;
+    color: rgba(255, 255, 255, 0.625);
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+
+@media screen and (max-width: 767px){
+  #ageplus{
+    margin-top: -0.4vh;
+    font-size: 3vw;
+}
+
+#freeyoo{
+  width: 95%;
+  margin-top: 35px !important;
+  
+}
+#freeyoo a{
+  padding: 12px 45px !important;
+}
+
+body > div > section > div > div > div > div > footer > div{
+  margin-top: 45px;
+}
 }

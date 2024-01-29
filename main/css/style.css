@@ -171,8 +171,8 @@ header.fixed .navbar {
   color: var(--green);
 }
 .header-button .box .dark_btn {
-  color: #091540;
-  background-color: var(--bg-green);
+  color: white;
+  background-color: #077bce;
   font-size: 14px;
   padding: 9px 35px 11px;
   border-radius: 16px;
@@ -468,5 +468,113 @@ header.fixed .navbar {
   text-align: center;
 
 } 
+
+
+
+
+
+@media screen and (max-width: 767px){
+  body > div > header > div > nav > button > span.navbar-toggler-icon{
+    margin-top: -1vh !important;
+  }
+
+}
+
+
+
+._root_1jbpl_1._socials_18y37_35 {
+  display: none;
+}
+
+/* Show the social media links on screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  ._root_1jbpl_1._socials_18y37_35 {
+      display: block;
+      margin-top: -6vh;
+      /* Additional styling for mobile view */
+  }
+  ._root_1jbpl_1._socials_18y37_35 a{
+    padding: 0.3vh;
+    margin-bottom: -1.2vh;
+  }
+
+  #navbarSupportedContent > ul > li:nth-child(2) > a {
+    margin-top: 2vh;
+  }
+
+  body > div > header > div > nav > button > span.close-icon > img{
+    position: absolute;
+    top: 3vh !important;
+    right: 0.4vw;
+    background: hsla(0,0%,100%,.06);
+    border-radius: 50%;
+  }
+
+
+  #navbarSupportedContent > ul > li:nth-child(6) > a > button{
+    margin-bottom: 2.5vh;
+    
+  }
+
+
+
+ 
+
+}
+
+
+@media screen and (max-width: 450px){
+  
+  #navbarSupportedContent > ul > div > div > a{
+    padding: 1vw;
+    
+    }
+    #navbarSupportedContent > ul > div > div{
+      margin-top: 0em !important;
+    }
+}
+
+#navbarSupportedContent > ul > div > div > a{
+padding: 1vw;
+}
+
+@media screen and (max-width: 768px) {
+  ._footer_18y37_85 {
+      margin-top: -80px !important; /* Smaller margin for smaller screens */
+      /* Adjust other styles as needed for responsiveness */
+  }
+  #navbarSupportedContent > ul > li:nth-child(6) > a{
+    margin-bottom: -40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  ._footer_18y37_85 {
+      margin-top: -80px !important; /* Smaller margin for smaller screens */
+      /* Adjust other styles as needed for responsiveness */
+  }
+  #navbarSupportedContent > ul > li:nth-child(6) > a{
+    margin-bottom: -35px;
+  }
+}
+
+  @media screen and (max-width: 414px) {
+    ._footer_18y37_85 {
+        margin-top: -30px !important; /* Smaller margin for smaller screens */
+        /* Adjust other styles as needed for responsiveness */
+    }
+    #navbarSupportedContent > ul > li:nth-child(6) > a{
+      margin-bottom: -125px;
+    }
+  }
+
+
+  #navbarSupportedContent > ul > div > div{
+    display: none !important;
+  }
+  @media screen and (max-width: 768px) {
+    #navbarSupportedContent > ul > div > div{
+      display: flex !important;
+    }
+  }
 
 
