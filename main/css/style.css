@@ -461,7 +461,7 @@ header.fixed .navbar {
 
 .neon-text {
   font-size: 10px;
-  margin-bottom: 15vh;
+  /* margin-bottom: 15vh; */
   display: flex;
   color: #7d7fea; /* Base color for the neon effect */
   font-family: Arial, sans-serif; /* You can choose a different font if you like */
